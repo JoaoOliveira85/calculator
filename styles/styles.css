@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculator {
+    align-items: center;
+    width: 400px;
+    height: 600px;
+}
+
+#calculatorBody {
+    height: 100%;
+    width: 100%
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+#outputDisplay {
+    height: 50px;
+    width: 95%;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%
+}
+
+.keys {
+    height: 100%;
+    width: 100%;
+}
